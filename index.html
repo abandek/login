@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+    <div class="login-container">
+        <img src="inkeimage.jpg" />
+        <h1>Inke</h1>
+        <h2>LOGIN</h2>
+        <form id="loginForm">
+            <label for="email">Email</label>
+            <input type="text" id="username" name="username" required>
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required>
+            <button type="submit">Login</button>
+        </form>
+        <div id="message"></div>
+       
+        <hr>
+        <button id="googleLogin"><img src="Google__G__logo.svg.png"Google logo" class="icon"> Login with Google</button>
+        <button id="appleLogin"><img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg" alt="Apple logo" class="icon"> Login with Apple</button>
+        <button id="facebookLogin"><img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook logo" class="icon"> Login with Facebook</button>
+        <div class="links">
+            <a href="#" id="forgotPassword">Forgot Password?</a>
+            <a href="#" id="signUp">Sign Up</a>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

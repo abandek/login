@@ -1,0 +1,178 @@
+/* styles.css */
+
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+     height: 100vh;
+    background-color: #ffffff; /* changed to white */
+    margin: 0;
+    ;
+}
+
+/* Container for the login form */
+.login-container {
+    background-color: #ffffff; /* changed to white */
+    padding: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+    border: 1px solid black;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/* Header for the form */
+h2 {
+    text-align: left;
+    margin-bottom: 20px;
+    color: black; /* added black color for text */
+}
+
+/* Labels for the input fields */
+label {
+    display: block;
+    margin-bottom: 5px;
+    text-align: left;
+    color: black; /* added black color for text */
+}
+
+/* Input fields */
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #000000; /* changed to black */
+    border-radius: 4px;
+    background-color: #ffffff; /* changed to white */
+    color: black; /* added black color for text */
+}
+
+/* Submit button */
+button {
+    width: 100%;
+    padding: 10px;
+    border: none; /* fixed typo: changed border-none to border: none */
+    background-color: black; /* changed to black */
+    color: white; /* changed to white */
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #000000; /* changed to black */
+    color: white; /* changed to white */
+}
+
+/* Message div for displaying errors */
+#message {
+    margin-top: 20px;
+    color: black; /* changed to black */
+}
+
+img {
+    width: 50px;
+    height: 50px;
+}
+
+/* Separator line */
+hr {
+    margin: 20px 0;
+    border: 0;
+    border-top: 1px solid #000000; /* changed to black */
+}
+
+/* Google login button */
+#googleLogin {
+    width: 100%;
+    padding: 10px;
+    background-color: #ffffff; /* changed to white */
+    border: 1px solid #000000; /* changed to black */
+    border-radius: 4px;
+    color: black; /* changed to black */
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#googleLogin img {
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+}
+
+#googleLogin:hover {
+    background-color: #f0f0f0; /* changed to light grey */
+}
+
+/* Apple login button */
+#appleLogin {
+    width: 100%;
+    padding: 10px;
+    background-color: #ffffff; /* changed to white */
+    border: 1px solid #000000; /* changed to black */
+    border-radius: 4px;
+    color: black; /* changed to black */
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#appleLogin img {
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+}
+
+#appleLogin:hover {
+    background-color: #f0f0f0; /* changed to light grey */
+}
+
+/* Facebook login button */
+#facebookLogin {
+    width: 100%;
+    padding: 10px;
+    background-color: #ffffff; /* changed to white */
+    border: 1px solid #000000; /* changed to black */
+    border-radius: 4px;
+    color: black; /* changed to black */
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#facebookLogin img {
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+}
+
+#facebookLogin:hover {
+    background-color: #f0f0f0; /* changed to light grey */
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.links a {
+    color: black; /* changed to black */
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
